@@ -10,6 +10,6 @@ A Windows-only application that demonstrates using Tauri's Window API to integra
 
 ![GIF Recorder Demo](assets/gif_record_example.gif)
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
