@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tauri
+src-tauri/target/
+dist/
+/gif_record_example/node_modules/
+/gif_record_example/src-tauri/target/

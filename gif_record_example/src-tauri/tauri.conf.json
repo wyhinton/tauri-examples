@@ -1,0 +1,62 @@
+{
+  "productName": "GIF Recorder Example",
+  "version": "1.0.0",
+  "identifier": "com.gif-recorder.example",
+  "build": {
+    "beforeDevCommand": "npm run dev:web",
+    "devUrl": "http://localhost:1421",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "GIF Recorder Example",
+        "width": 600,
+        "height": 900,
+        "resizable": true,
+        "center": true
+      }
+    ],
+    "security": {
+      "capabilities": [
+        {
+          "identifier": "main-capability",
+          "description": "Main capability for GIF recording",
+          "windows": ["*"],
+          "permissions": [
+            "core:window:allow-outer-position",
+            "core:window:allow-outer-size",
+            "core:window:allow-inner-size",
+            "shell:default",
+            {
+              "identifier": "shell:allow-execute",
+              "allow": [
+                {
+                  "name": "node",
+                  "cmd": "node",
+                  "args": true,
+                  "sidecar": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "screen-2-window-recorder-example",
+  "version": "1.0.0",
+  "description": "Minimal example of GIF screen recording with Tauri",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "dev:web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "execa": "^9.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "vite": "^5.4.0"
+  }
+}
