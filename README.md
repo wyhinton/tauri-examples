@@ -18,7 +18,7 @@ A minimal cross-platform application demonstrating how to:
 - Use Tauri's fs plugin to write files
 - Open the saved file in the OS file explorer using the [`showfile`](https://docs.rs/showfile/latest/showfile/) crate
 
-[View Example →](show_file_in_os_explorer/)
+![Showfile Demo](assets/show_file_in_os_explorer.gif)
 
 ## License
 
