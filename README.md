@@ -4,13 +4,13 @@ A collection of example applications built with Tauri, demonstrating various fea
 
 ## 📁 Examples
 
-### 🎬 GIF Recorder Example
+### [🎬 GIF Recorder Example](gif_record_example/)
 
 A Windows-only application that demonstrates using Tauri's Window API to integrate with Screen2Gif for precise screen recording.
 
 ![GIF Recorder Demo](assets/gif_record_example.gif)
 
-### 📂 Show File in OS Explorer
+### [📂 Show File in OS Explorer](show_file_in_os_explorer/)
 
 A minimal cross-platform application demonstrating how to:
 - Write text content and save it as a `.txt` file
