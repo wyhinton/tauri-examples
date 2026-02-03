@@ -1,0 +1,21 @@
+[package]
+name = "show-file-in-explorer"
+version = "0.1.0"
+description = "A minimal Tauri example for showing files in OS explorer"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "show_file_in_explorer_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+showfile = "0.1"

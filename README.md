@@ -10,6 +10,16 @@ A Windows-only application that demonstrates using Tauri's Window API to integra
 
 ![GIF Recorder Demo](assets/gif_record_example.gif)
 
+### 📂 Show File in OS Explorer
+
+A minimal cross-platform application demonstrating how to:
+- Write text content and save it as a `.txt` file
+- Use Tauri's dialog plugin to select output file paths
+- Use Tauri's fs plugin to write files
+- Open the saved file in the OS file explorer using the [`showfile`](https://docs.rs/showfile/latest/showfile/) crate
+
+[View Example →](show_file_in_os_explorer/)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).

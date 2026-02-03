@@ -1,0 +1,19 @@
+{
+  "name": "show-file-in-explorer",
+  "version": "0.1.0",
+  "description": "A minimal Tauri example demonstrating how to show a file in the OS explorer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.0.0",
+    "@tauri-apps/plugin-fs": "^2.0.0",
+    "vite": "^5.0.0"
+  }
+}

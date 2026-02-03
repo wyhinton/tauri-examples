@@ -19,3 +19,6 @@ src-tauri/target/
 dist/
 /gif_record_example/node_modules/
 /gif_record_example/src-tauri/target/
+
+
+**/target/
