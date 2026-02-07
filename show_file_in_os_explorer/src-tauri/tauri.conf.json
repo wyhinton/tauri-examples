@@ -35,6 +35,28 @@
             {
               "identifier": "fs:scope",
               "allow": ["**"]
+            },
+              {
+              "identifier": "shell:allow-execute",
+              "allow": [
+                {
+                  "name": "exec-sh",
+                  "cmd": "sh",
+                  "args": [
+                    "-c",
+                    {
+                      "validator": "\\S+"
+                    }
+                  ],
+                  "sidecar": false
+                },
+                {
+                  "name": "node",
+                  "cmd": "node",
+                  "args": true,
+                  "sidecar": false
+                }
+              ]
             }
           ]
         }

@@ -20,6 +20,14 @@ A minimal cross-platform application demonstrating how to:
 
 ![Showfile Demo](assets/show_file_in_os_explorer.gif)
 
+### [📝 Open File in VS Code](open_file_in_vscode/)
+
+A minimal cross-platform application demonstrating how to:
+- Select a file and (optionally) a line number
+- Open the file in VS Code at the specified line using a custom Tauri command
+
+![VSCode Demo](open_file_in_vscode/assets/open_file_in_vscode_demo.gif)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
